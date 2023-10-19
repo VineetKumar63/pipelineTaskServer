@@ -10,7 +10,7 @@ app.use(cors());
 const bodyParser = require("body-parser");
 app.use(bodyParser.json());
 
-//////////
+///
 const {AdminUser} = require("./Routes/admin/adminUserRouter.js")
 app.use("/", AdminUser);
 
